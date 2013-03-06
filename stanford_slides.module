@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Code for the Stanford Image feature.
+ * Code for the Stanford Slides feature.
  */
 
 include_once 'stanford_slides.features.inc';

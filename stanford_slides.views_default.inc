@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * stanford_image.views_default.inc
+ * stanford_slides.views_default.inc
  */
 
 /**
  * Implements hook_views_default_views().
  */
-function stanford_image_views_default_views() {
+function stanford_slides_views_default_views() {
   $export = array();
 
   $view = new view;
