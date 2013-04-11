@@ -1,6 +1,10 @@
 Stanford Slides x.x-x.x xxxx-xx-xx
 ----------------------------------
 
+Stanford Slides 7.x-2.0-alpha1 2013-04-11
+-----------------------------------------
+First release on the 2.x branch, removes the Views Slideshow View (and therefore the dependency)
+
 Stanford Slides 7.x-1.0-alpha5 2013-03-06
 -----------------------------------------
 This is the inital release of the Stanford Slides module.
