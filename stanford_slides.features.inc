@@ -9,10 +9,6 @@
  */
 function stanford_slides_ctools_plugin_api() {
   list($module, $api) = func_get_args();
-  if ($module == "field_group" && $api == "field_group") {
-    return array("version" => "1");
-  }
-  list($module, $api) = func_get_args();
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
@@ -34,7 +30,7 @@ function stanford_slides_node_info() {
       'name' => t('Stanford Slide'),
       'base' => 'node_content',
       'description' => t('Used when the image is not associated with content.  For slideshows, rotating images, etc.
-Essentially just the image field collection (no body text) with a link, type, and weight.'),
+Basically just the image field collection (no body text) with a link, type, and weight.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',

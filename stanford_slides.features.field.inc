@@ -125,6 +125,279 @@ function stanford_slides_field_default_fields() {
     ),
   );
 
+  // Exported field: 'node-stanford_slide-field_s_slide_caption_color'.
+  $fields['node-stanford_slide-field_s_slide_caption_color'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_s_slide_caption_color',
+      'foreign keys' => array(),
+      'indexes' => array(
+        'value' => array(
+          0 => 'value',
+        ),
+      ),
+      'locked' => '0',
+      'module' => 'list',
+      'settings' => array(
+        'allowed_values' => array(
+          'light' => 'Light',
+          'dark' => 'Dark',
+        ),
+        'allowed_values_function' => '',
+      ),
+      'translatable' => '0',
+      'type' => 'list_text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'stanford_slide',
+      'default_value' => array(
+        0 => array(
+          'value' => 'dark',
+        ),
+      ),
+      'deleted' => '0',
+      'description' => 'This defines the color scheme used when displaying the caption.',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'list',
+          'settings' => array(),
+          'type' => 'list_default',
+          'weight' => 6,
+        ),
+        'stanford_12_col_banner' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'stanford_6_col_banner' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'stanford_8_col_banner' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'stanford_9_col_banner' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_s_slide_caption_color',
+      'label' => 'Caption Color',
+      'required' => 1,
+      'settings' => array(
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'options',
+        'settings' => array(),
+        'type' => 'options_buttons',
+        'weight' => '6',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-stanford_slide-field_s_slide_caption_position_h'.
+  $fields['node-stanford_slide-field_s_slide_caption_position_h'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_s_slide_caption_position_h',
+      'foreign keys' => array(),
+      'indexes' => array(
+        'value' => array(
+          0 => 'value',
+        ),
+      ),
+      'locked' => '0',
+      'module' => 'list',
+      'settings' => array(
+        'allowed_values' => array(
+          'left' => 'Left',
+          'right' => 'RIght',
+        ),
+        'allowed_values_function' => '',
+      ),
+      'translatable' => '0',
+      'type' => 'list_text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'stanford_slide',
+      'default_value' => array(
+        0 => array(
+          'value' => 'left',
+        ),
+      ),
+      'deleted' => '0',
+      'description' => 'This field is used for the horizontal placement of the caption on your slide. This field is ignored for no-caption views displays.',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'list',
+          'settings' => array(),
+          'type' => 'list_default',
+          'weight' => 7,
+        ),
+        'stanford_12_col_banner' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'stanford_6_col_banner' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'stanford_8_col_banner' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'stanford_9_col_banner' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_s_slide_caption_position_h',
+      'label' => 'Caption Position - Horizontal',
+      'required' => 1,
+      'settings' => array(
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'options',
+        'settings' => array(),
+        'type' => 'options_buttons',
+        'weight' => '4',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-stanford_slide-field_s_slide_caption_position_v'.
+  $fields['node-stanford_slide-field_s_slide_caption_position_v'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_s_slide_caption_position_v',
+      'foreign keys' => array(),
+      'indexes' => array(
+        'value' => array(
+          0 => 'value',
+        ),
+      ),
+      'locked' => '0',
+      'module' => 'list',
+      'settings' => array(
+        'allowed_values' => array(
+          'top' => 'Top',
+          'bottom' => 'Bottom',
+        ),
+        'allowed_values_function' => '',
+      ),
+      'translatable' => '0',
+      'type' => 'list_text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'stanford_slide',
+      'default_value' => array(
+        0 => array(
+          'value' => 'bottom',
+        ),
+      ),
+      'deleted' => '0',
+      'description' => 'This field defines vertical alignment for the caption overlay on your slide. Vertical positioning is ignored for caption-block and no-caption views displays.',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'list',
+          'settings' => array(),
+          'type' => 'list_default',
+          'weight' => 8,
+        ),
+        'stanford_12_col_banner' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'stanford_6_col_banner' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'stanford_8_col_banner' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'stanford_9_col_banner' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_s_slide_caption_position_v',
+      'label' => 'Caption Position - Vertical',
+      'required' => 1,
+      'settings' => array(
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'options',
+        'settings' => array(),
+        'type' => 'options_buttons',
+        'weight' => '5',
+      ),
+    ),
+  );
+
   // Exported field: 'node-stanford_slide-field_s_slide_category'.
   $fields['node-stanford_slide-field_s_slide_category'] = array(
     'field_config' => array(
@@ -503,18 +776,18 @@ function stanford_slides_field_default_fields() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Caption');
+  t('Caption Color');
+  t('Caption Position - Horizontal');
+  t('Caption Position - Vertical');
   t('Category');
-  t('Credits');
-  t('Enter the original name, if changed, and other information to aid in finding the original image.');
-  t('Enter the photographer or organization credits.');
   t('Group');
   t('Identifies the group in which this slide belongs.');
   t('If this image is part of a group, the weight helps determine the sorting order.  ');
   t('Image');
   t('Link');
-  t('Optionally enter information to appear as a caption for this image. This text may be trimmed to 180 characters.');
-  t('Source Info');
+  t('This defines the color scheme used when displaying the caption.');
+  t('This field defines vertical alignment for the caption overlay on your slide. Vertical positioning is ignored for caption-block and no-caption views displays.');
+  t('This field is used for the horizontal placement of the caption on your slide. This field is ignored for no-caption views displays.');
   t('Weight');
 
   return $fields;
