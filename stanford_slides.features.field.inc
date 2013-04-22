@@ -211,7 +211,7 @@ function stanford_slides_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '6',
+        'weight' => '7',
       ),
     ),
   );
@@ -302,7 +302,7 @@ function stanford_slides_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '4',
+        'weight' => '8',
       ),
     ),
   );
@@ -393,7 +393,7 @@ function stanford_slides_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_buttons',
-        'weight' => '5',
+        'weight' => '9',
       ),
     ),
   );
@@ -490,93 +490,7 @@ function stanford_slides_field_default_fields() {
           'size' => 60,
         ),
         'type' => 'taxonomy_autocomplete',
-        'weight' => '5',
-      ),
-    ),
-  );
-
-  // Exported field: 'node-stanford_slide-field_s_slide_group'.
-  $fields['node-stanford_slide-field_s_slide_group'] = array(
-    'field_config' => array(
-      'active' => '1',
-      'cardinality' => '-1',
-      'deleted' => '0',
-      'entity_types' => array(),
-      'field_name' => 'field_s_slide_group',
-      'foreign keys' => array(),
-      'indexes' => array(
-        'value' => array(
-          0 => 'value',
-        ),
-      ),
-      'locked' => '0',
-      'module' => 'list',
-      'settings' => array(
-        'allowed_values' => array(
-          'home' => 'Home page slideshow',
-        ),
-        'allowed_values_function' => '',
-      ),
-      'translatable' => '0',
-      'type' => 'list_text',
-    ),
-    'field_instance' => array(
-      'bundle' => 'stanford_slide',
-      'default_value' => NULL,
-      'deleted' => '0',
-      'description' => 'Identifies the group in which this slide belongs.',
-      'display' => array(
-        'default' => array(
-          'label' => 'inline',
-          'module' => 'list',
-          'settings' => array(),
-          'type' => 'list_default',
-          'weight' => '3',
-        ),
-        'stanford_12_col_banner' => array(
-          'label' => 'above',
-          'settings' => array(),
-          'type' => 'hidden',
-          'weight' => '3',
-        ),
-        'stanford_6_col_banner' => array(
-          'label' => 'above',
-          'settings' => array(),
-          'type' => 'hidden',
-          'weight' => '3',
-        ),
-        'stanford_8_col_banner' => array(
-          'label' => 'above',
-          'settings' => array(),
-          'type' => 'hidden',
-          'weight' => '3',
-        ),
-        'stanford_9_col_banner' => array(
-          'label' => 'above',
-          'settings' => array(),
-          'type' => 'hidden',
-          'weight' => '3',
-        ),
-        'teaser' => array(
-          'label' => 'above',
-          'settings' => array(),
-          'type' => 'hidden',
-          'weight' => '1',
-        ),
-      ),
-      'entity_type' => 'node',
-      'field_name' => 'field_s_slide_group',
-      'label' => 'Group',
-      'required' => 0,
-      'settings' => array(
-        'user_register_form' => FALSE,
-      ),
-      'widget' => array(
-        'active' => 1,
-        'module' => 'options',
-        'settings' => array(),
-        'type' => 'options_buttons',
-        'weight' => '2',
+        'weight' => '10',
       ),
     ),
   );
@@ -683,7 +597,7 @@ function stanford_slides_field_default_fields() {
         'module' => 'link',
         'settings' => array(),
         'type' => 'link_field',
-        'weight' => '3',
+        'weight' => '2',
       ),
     ),
   );
@@ -769,7 +683,7 @@ function stanford_slides_field_default_fields() {
         'module' => 'number',
         'settings' => array(),
         'type' => 'number',
-        'weight' => '4',
+        'weight' => '11',
       ),
     ),
   );
@@ -780,8 +694,6 @@ function stanford_slides_field_default_fields() {
   t('Caption Position - Horizontal');
   t('Caption Position - Vertical');
   t('Category');
-  t('Group');
-  t('Identifies the group in which this slide belongs.');
   t('If this image is part of a group, the weight helps determine the sorting order.  ');
   t('Image');
   t('Link');
