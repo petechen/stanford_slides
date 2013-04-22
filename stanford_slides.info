@@ -33,7 +33,6 @@ features[field][] = node-stanford_slide-field_s_slide_category
 features[field][] = node-stanford_slide-field_s_slide_link
 features[field][] = node-stanford_slide-field_s_slide_weight
 features[field_group][] = group_s_slide_show_settings|node|stanford_slide|form
-features[field_group][] = group_s_slide_show_settngs|node|stanford_slide|form
 features[node][] = stanford_slide
 features[taxonomy][] = stanford_slide_category
 features[variable][] = additional_settings__active_tab_stanford_slide
