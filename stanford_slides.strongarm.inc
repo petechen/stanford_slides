@@ -105,6 +105,9 @@ function stanford_slides_strongarm() {
       'stanford_12_col_banner' => array(
         'custom_settings' => TRUE,
       ),
+      'diff_standard' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
