@@ -13,9 +13,9 @@ function stanford_slides_taxonomy_default_vocabularies() {
       'name' => 'Slide Category',
       'machine_name' => 'stanford_slide_category',
       'description' => '',
-      'hierarchy' => '0',
+      'hierarchy' => 0,
       'module' => 'taxonomy',
-      'weight' => '0',
+      'weight' => 0,
       'rdf_mapping' => array(
         'rdftype' => array(
           0 => 'skos:ConceptScheme',
