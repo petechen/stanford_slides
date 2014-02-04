@@ -10,25 +10,6 @@
 function stanford_slides_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'field_s_image_info'
-  $field_bases['field_s_image_info'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_s_image_info',
-    'foreign keys' => array(),
-    'indexes' => array(),
-    'locked' => 0,
-    'module' => 'field_collection',
-    'settings' => array(
-      'hide_blank_items' => TRUE,
-      'path' => '',
-    ),
-    'translatable' => 0,
-    'type' => 'field_collection',
-  );
-
   // Exported field_base: 'field_s_slide_caption_color'
   $field_bases['field_s_slide_caption_color'] = array(
     'active' => 1,
